@@ -23,10 +23,10 @@
 ```
 1.0.0 <- prima release funzionante del progetto
 1.0.1 <- vengono fatti alcuni bug fix
-1.1.1 <- vengono introdotte nuove funzionalità retrocompatibili
-1.2.1 <- vengono introdotte nuove funzionalità retrocompatibili
-1.2.2 <- vengono fatti altri bug fix
-2.0.0 <- viene vengono introdotte molte nuove funzionalità, non retrocompatibili con il vecchio codice
+1.1.0 <- vengono introdotte nuove funzionalità retrocompatibili
+1.2.0 <- vengono introdotte nuove funzionalità retrocompatibili
+1.2.1 <- vengono fatti altri bug fix
+2.0.0 <- Breaking Changes. vengono introdotte molte nuove funzionalità, non retrocompatibili con il vecchio codice
 ```
 
 ### Commit history che vogliamo evitare
