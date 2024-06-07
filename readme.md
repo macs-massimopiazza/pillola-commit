@@ -11,6 +11,10 @@
 >
 >L'importante è scegliere una convenzione ed essere consistenti, usandola quindi per tutto il progetto (nel vostro caso l'esercizio).
 
+### Commit history che vogliamo evitare
+
+![commit con type, scope e description](/img/bad-commit-history.png)
+
 ## Sintassi di base
 
 ```
@@ -69,10 +73,10 @@ style: remove blank spaces and unecessary code
 
 <br>
 
-![commit con type e descrizione](/img/commit-1.png)
+![commit con type e description](/img/commit-1.png)
 <br>
 
-![commit con type e descrizione](/img/commit-2.png)
+![commit con type, description e footer](/img/commit-2.png)
 <br>
 
-![commit con type e descrizione](/img/commit-3.png)
+![commit con type, scope e description](/img/commit-3.png)
