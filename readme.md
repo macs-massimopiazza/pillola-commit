@@ -1,4 +1,4 @@
-# Guida "conventional commit"
+# Guida "[conventional commit](https://www.conventionalcommits.org/en/v1.0.0/)"
 ## Scrivere messaggi di commit descrittivi e rilevanti
 
 > 🚨 Disclaimer
