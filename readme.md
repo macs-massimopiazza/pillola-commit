@@ -11,6 +11,13 @@
 >
 >L'importante è scegliere una convenzione ed essere consistenti, usandola quindi per tutto il progetto (nel vostro caso l'esercizio).
 
+## Basi di Semantic Code Versioning
+
+`MAJOR`.`MINOR`.`PATCH`
+- `MAJOR` detto anche breaking change. Quando le modifiche rendono **NON** retrocompatibile il codice.
+- `MINOR` Aggiunta di una feature (aggiuntà di nuova funzionalità). Retrocompatibili con il codice
+- `PATCH` Risoluzione di bug e modifiche che non aggiungono funzionalità specifiche. Retrocompatibili con il codice
+
 ### Commit history che vogliamo evitare
 
 ![commit con type, scope e description](/img/bad-commit-history.png)
@@ -54,14 +61,13 @@
 ### Esercizio Fizzbuzz
 
 ```
-setup: add base project files
+build: add base project files
 
 feat: show numbers from 1 to 100 in console
 
 feat: replace mutiples matching numbers with related keyword (fizz, buzz, fizzbuzz)
 
 fix: avoid if statement never check fizzbuzz condition (multiples of 3 & 5)
-
 Base exercise completed
 
 feat(bonus 1): show box with number/keyword on page (instead of console)
