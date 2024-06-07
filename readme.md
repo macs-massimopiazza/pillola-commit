@@ -13,10 +13,21 @@
 
 ## Basi di Semantic Code Versioning
 
+`1`.`0`.`0`
+
 `MAJOR`.`MINOR`.`PATCH`
 - `MAJOR` detto anche breaking change. Quando le modifiche rendono **NON** retrocompatibile il codice.
 - `MINOR` Aggiunta di una feature (aggiuntà di nuova funzionalità). Retrocompatibili con il codice
 - `PATCH` Risoluzione di bug e modifiche che non aggiungono funzionalità specifiche. Retrocompatibili con il codice
+
+```
+1.0.0 <- prima release funzionante del progetto
+1.0.1 <- vengono fatti alcuni bug fix
+1.1.1 <- vengono introdotte nuove funzionalità retrocompatibili
+1.2.1 <- vengono introdotte nuove funzionalità retrocompatibili
+1.2.2 <- vengono fatti altri bug fix
+2.0.0 <- viene vengono introdotte molte nuove funzionalità, non retrocompatibili con il vecchio codice
+```
 
 ### Commit history che vogliamo evitare
 
